@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F83D85A01C65527D003E2DD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D859F1C65527D003E2DD3 /* main.m */; };
+		F83D85A31C65527D003E2DD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D85A21C65527D003E2DD3 /* AppDelegate.m */; };
+		F83D85A61C65527D003E2DD3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D85A51C65527D003E2DD3 /* ViewController.m */; };
+		F83D85A91C65527D003E2DD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F83D85A71C65527D003E2DD3 /* Main.storyboard */; };
+		F83D85AB1C65527D003E2DD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F83D85AA1C65527D003E2DD3 /* Assets.xcassets */; };
+		F83D85B61C65527D003E2DD3 /* KodiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D85B51C65527D003E2DD3 /* KodiTests.m */; };
+		F83D85C11C65527D003E2DD3 /* KodiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F83D85C01C65527D003E2DD3 /* KodiUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F83D85B21C65527D003E2DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F83D85931C65527D003E2DD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F83D859A1C65527D003E2DD3;
+			remoteInfo = Kodi;
+		};
+		F83D85BD1C65527D003E2DD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F83D85931C65527D003E2DD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F83D859A1C65527D003E2DD3;
+			remoteInfo = Kodi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F83D859B1C65527D003E2DD3 /* Kodi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kodi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83D859F1C65527D003E2DD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F83D85A11C65527D003E2DD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F83D85A21C65527D003E2DD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F83D85A41C65527D003E2DD3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F83D85A51C65527D003E2DD3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F83D85A81C65527D003E2DD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F83D85AA1C65527D003E2DD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F83D85AC1C65527D003E2DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F83D85B11C65527D003E2DD3 /* KodiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KodiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83D85B51C65527D003E2DD3 /* KodiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KodiTests.m; sourceTree = "<group>"; };
+		F83D85B71C65527D003E2DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F83D85BC1C65527D003E2DD3 /* KodiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KodiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F83D85C01C65527D003E2DD3 /* KodiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KodiUITests.m; sourceTree = "<group>"; };
+		F83D85C21C65527D003E2DD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F83D85981C65527D003E2DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83D85AE1C65527D003E2DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83D85B91C65527D003E2DD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F83D85921C65527D003E2DD3 = {
+			isa = PBXGroup;
+			children = (
+				F83D859D1C65527D003E2DD3 /* Kodi */,
+				F83D85B41C65527D003E2DD3 /* KodiTests */,
+				F83D85BF1C65527D003E2DD3 /* KodiUITests */,
+				F83D859C1C65527D003E2DD3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F83D859C1C65527D003E2DD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F83D859B1C65527D003E2DD3 /* Kodi.app */,
+				F83D85B11C65527D003E2DD3 /* KodiTests.xctest */,
+				F83D85BC1C65527D003E2DD3 /* KodiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F83D859D1C65527D003E2DD3 /* Kodi */ = {
+			isa = PBXGroup;
+			children = (
+				F83D85A11C65527D003E2DD3 /* AppDelegate.h */,
+				F83D85A21C65527D003E2DD3 /* AppDelegate.m */,
+				F83D85A41C65527D003E2DD3 /* ViewController.h */,
+				F83D85A51C65527D003E2DD3 /* ViewController.m */,
+				F83D85A71C65527D003E2DD3 /* Main.storyboard */,
+				F83D85AA1C65527D003E2DD3 /* Assets.xcassets */,
+				F83D85AC1C65527D003E2DD3 /* Info.plist */,
+				F83D859E1C65527D003E2DD3 /* Supporting Files */,
+			);
+			path = Kodi;
+			sourceTree = "<group>";
+		};
+		F83D859E1C65527D003E2DD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F83D859F1C65527D003E2DD3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F83D85B41C65527D003E2DD3 /* KodiTests */ = {
+			isa = PBXGroup;
+			children = (
+				F83D85B51C65527D003E2DD3 /* KodiTests.m */,
+				F83D85B71C65527D003E2DD3 /* Info.plist */,
+			);
+			path = KodiTests;
+			sourceTree = "<group>";
+		};
+		F83D85BF1C65527D003E2DD3 /* KodiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F83D85C01C65527D003E2DD3 /* KodiUITests.m */,
+				F83D85C21C65527D003E2DD3 /* Info.plist */,
+			);
+			path = KodiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F83D859A1C65527D003E2DD3 /* Kodi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83D85C51C65527D003E2DD3 /* Build configuration list for PBXNativeTarget "Kodi" */;
+			buildPhases = (
+				F83D85971C65527D003E2DD3 /* Sources */,
+				F83D85981C65527D003E2DD3 /* Frameworks */,
+				F83D85991C65527D003E2DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kodi;
+			productName = Kodi;
+			productReference = F83D859B1C65527D003E2DD3 /* Kodi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F83D85B01C65527D003E2DD3 /* KodiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83D85C81C65527D003E2DD3 /* Build configuration list for PBXNativeTarget "KodiTests" */;
+			buildPhases = (
+				F83D85AD1C65527D003E2DD3 /* Sources */,
+				F83D85AE1C65527D003E2DD3 /* Frameworks */,
+				F83D85AF1C65527D003E2DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F83D85B31C65527D003E2DD3 /* PBXTargetDependency */,
+			);
+			name = KodiTests;
+			productName = KodiTests;
+			productReference = F83D85B11C65527D003E2DD3 /* KodiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F83D85BB1C65527D003E2DD3 /* KodiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83D85CB1C65527D003E2DD3 /* Build configuration list for PBXNativeTarget "KodiUITests" */;
+			buildPhases = (
+				F83D85B81C65527D003E2DD3 /* Sources */,
+				F83D85B91C65527D003E2DD3 /* Frameworks */,
+				F83D85BA1C65527D003E2DD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F83D85BE1C65527D003E2DD3 /* PBXTargetDependency */,
+			);
+			name = KodiUITests;
+			productName = KodiUITests;
+			productReference = F83D85BC1C65527D003E2DD3 /* KodiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F83D85931C65527D003E2DD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = SemoTech;
+				TargetAttributes = {
+					F83D859A1C65527D003E2DD3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6678YF44KG;
+					};
+					F83D85B01C65527D003E2DD3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6678YF44KG;
+						TestTargetID = F83D859A1C65527D003E2DD3;
+					};
+					F83D85BB1C65527D003E2DD3 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6678YF44KG;
+						TestTargetID = F83D859A1C65527D003E2DD3;
+					};
+				};
+			};
+			buildConfigurationList = F83D85961C65527D003E2DD3 /* Build configuration list for PBXProject "Kodi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F83D85921C65527D003E2DD3;
+			productRefGroup = F83D859C1C65527D003E2DD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F83D859A1C65527D003E2DD3 /* Kodi */,
+				F83D85B01C65527D003E2DD3 /* KodiTests */,
+				F83D85BB1C65527D003E2DD3 /* KodiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F83D85991C65527D003E2DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83D85AB1C65527D003E2DD3 /* Assets.xcassets in Resources */,
+				F83D85A91C65527D003E2DD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83D85AF1C65527D003E2DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83D85BA1C65527D003E2DD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F83D85971C65527D003E2DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83D85A61C65527D003E2DD3 /* ViewController.m in Sources */,
+				F83D85A31C65527D003E2DD3 /* AppDelegate.m in Sources */,
+				F83D85A01C65527D003E2DD3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83D85AD1C65527D003E2DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83D85B61C65527D003E2DD3 /* KodiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F83D85B81C65527D003E2DD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F83D85C11C65527D003E2DD3 /* KodiUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F83D85B31C65527D003E2DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F83D859A1C65527D003E2DD3 /* Kodi */;
+			targetProxy = F83D85B21C65527D003E2DD3 /* PBXContainerItemProxy */;
+		};
+		F83D85BE1C65527D003E2DD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F83D859A1C65527D003E2DD3 /* Kodi */;
+			targetProxy = F83D85BD1C65527D003E2DD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F83D85A71C65527D003E2DD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F83D85A81C65527D003E2DD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F83D85C31C65527D003E2DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		F83D85C41C65527D003E2DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F83D85C61C65527D003E2DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Kodi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SemoTech.Kodi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F83D85C71C65527D003E2DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Kodi/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SemoTech.Kodi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F83D85C91C65527D003E2DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KodiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SemoTech.KodiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kodi.app/Kodi";
+			};
+			name = Debug;
+		};
+		F83D85CA1C65527D003E2DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KodiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SemoTech.KodiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kodi.app/Kodi";
+			};
+			name = Release;
+		};
+		F83D85CC1C65527D003E2DD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KodiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SemoTech.KodiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kodi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F83D85CD1C65527D003E2DD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KodiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.SemoTech.KodiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kodi;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F83D85961C65527D003E2DD3 /* Build configuration list for PBXProject "Kodi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83D85C31C65527D003E2DD3 /* Debug */,
+				F83D85C41C65527D003E2DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83D85C51C65527D003E2DD3 /* Build configuration list for PBXNativeTarget "Kodi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83D85C61C65527D003E2DD3 /* Debug */,
+				F83D85C71C65527D003E2DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F83D85C81C65527D003E2DD3 /* Build configuration list for PBXNativeTarget "KodiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83D85C91C65527D003E2DD3 /* Debug */,
+				F83D85CA1C65527D003E2DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F83D85CB1C65527D003E2DD3 /* Build configuration list for PBXNativeTarget "KodiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F83D85CC1C65527D003E2DD3 /* Debug */,
+				F83D85CD1C65527D003E2DD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F83D85931C65527D003E2DD3 /* Project object */;
+}
